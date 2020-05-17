@@ -1,0 +1,234 @@
+
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h3, h4, h5, h6{
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+
+
+h3{
+
+  line-height: 1.5;
+  color: white;
+
+}
+
+
+
+
+/* HEADINGS */
+
+.big-heading{
+  font-family: "Montserrat";
+  line-height: 1.5 ;
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* TITLE SECTION */
+
+
+
+#title{
+  background-color: #FF4C68;
+  font-family: "Montserrat";
+  text-align: left;
+
+
+}
+.container-fluid{
+  padding: 3% 15%;
+}
+
+.downald-btn{
+  margin-left: 0;
+  margin-right: 1rem;
+  margin-top: 1rem;
+
+}
+
+
+.first-text{
+  margin-bottom: 1rem;
+}
+
+
+
+.iphone-pic{
+  height: 25rem;
+}
+
+.navigation-bar{
+margin: 2rem 0 4rem ;
+}
+
+
+
+.nav-item{
+  padding: 0 20px;
+  font-size: 1.15rem;
+}
+
+.navbar-brand{
+font-family: "Ubuntu";
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+
+.dog-pic{
+  width: 17.5rem;
+  height: 34.25rem;
+  transform: rotate(20deg);
+  top:10px;
+  position: absolute;
+  left: 4rem;
+
+  margin:5%;
+
+}
+
+/* FEATURES SECTION */
+
+#features{
+
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.icons{
+  color: #EF8172;
+
+
+
+}
+.icons:hover{
+  color:#ff4c68;
+}
+
+.features-p{
+  color: #8f8f8f;
+  padding: 0 2rem;
+}
+
+
+.feature-box{
+  padding: 2rem 0;
+}
+
+.feat{
+  font-size: 1.5rem;
+  font-family: Montserrat;
+  font-weight: 900;
+
+  line-height: 2;
+}
+
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+
+
+  background-color: #EF8172;
+  color: #fff;
+
+}
+
+.testimonial-image{
+  border-radius: 100%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* PRESS SECTION */
+#press{
+  background-color: #EF8172;
+
+  padding: 3%;
+}
+
+.press-images{
+width: 15%;
+margin: 20px 20px 50px;
+}
+
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 7% 15%;
+
+}
+
+.pricing-column{
+padding:  3% 2%;
+padding-top: 0px;
+
+}
+
+.pricing-text{
+  font-size: 3rem;
+  line-height: 1.5;
+
+
+}
+
+
+/* MEDIA SECTION */
+
+@media (max-width:1028px) {
+  .dog-pic {
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* FOOTER SECTION */
+
+#cta{
+
+  background-color: #ff4c68;
+  padding: 7% 30%;
+}
+#footer{
+
+  background-color: #fff;
+}
+.footer-p{
+color: grey;
+padding-top: 1rem;
+font-size: 0.8rem;
+}
+
+.font-awsome-icone-footer{
+  padding: 3rem 0.5rem 1rem;
+}
